@@ -99,7 +99,7 @@ k->e=gen_prime(RANG);
 void generate_close_key(key *cls_key,key *op_key)
 {
 
-cls_key->mod=op_key->mod;
+ cls_key->mod=op_key->mod;
 
 unsigned int c=ext_d(::eul_m,op_key->e);//find inverse number modulo 
 
